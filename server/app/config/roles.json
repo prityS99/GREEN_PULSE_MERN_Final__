@@ -1,0 +1,127 @@
+{
+  "roles": {
+    "admin": {
+      "permissions": [
+        "create_user",
+        "update_user",
+        "delete_user",
+        "view_all_user",
+        "update_user_role",
+        "view_all_badge_change_ngo",
+        "create_badge_for_ngo",
+        "delete_badge_for_ngo",
+        "update_badge_for_ngo",
+        "create_ngo",
+        "update_ngo",
+        "delete_ngo",
+        "view_all_ngo",
+        "add_assigned_tasks",
+        "update_assigned_tasks",
+        "create_annoucements",
+        "update_annoucements",
+        "delete_annoucements",
+        "view_all_annoucements",
+        "view_all_categories",
+        "create_categories",
+        "update_categories",
+        "delete_categories",
+        "create_cleaning_company",
+        "update_cleaning_company",
+        "delete_cleaning_company",
+        "view_all_cleaning_company",
+        "update_reviews",
+        "delete_reviews",
+        "approve_cleaning_request",
+        "disapprove_waste_cleaning_request",
+        "approved_campaign",
+        "approve_company",
+        "approve_ngo",
+        "approve_reward",
+        "issue_reward_certificate",
+        "view_system_analytics",
+        "manage_notifications",
+        "disapproved_campaigning",
+        "view_all_cleaning_company",
+        "activate_deactivate_user",
+        "activate_deactivate_ngo",
+        "activate_deactivate_annoucements",
+        "manage_system_settings",
+        "view_all_transactions",
+        "create_payment",
+        "view_all_payments",
+        "view_single_payment",
+        "verify_payment"
+      ]
+    },
+    "ngo": {
+      "permissions": [
+        "create_annoucements",
+        "view_reviews",
+        "update_reviews",
+        "delete_reviews",
+        "create_ngo",
+        "update_ngo",
+        "delete_ngo",
+        "create_cleaning_request",
+        "update_cleaning_request",
+        "delete_cleaning_request",
+        "view_own_requests",
+        "create_campaign_announcement",
+        "update_profile",
+        "view_company_reviews",
+        "view_own_certificates",
+        "hire_cleaning_company",
+        "upload_waste_images",
+        "create_payment",
+        "view_badges",
+        "view_notifications"
+      ]
+    },
+    "cleaning_company": {
+      "permissions": [
+        "accept_cleaning_request",
+        "reject_cleaning_request",
+        "update_cleaning_status",
+        "add_assigned_tasks",
+        "update_assigned_tasks",
+        "view_assigned_tasks",
+        "upload_work_proof",
+        "view_company_badges",
+        "create_cleaning_company",
+        "create_cleaning_company",
+        "update_cleaning_company",
+        "delete_cleaning_company",
+        "view_all_cleaning_company",
+        "view_notifications",
+        "receive_cleaning_requests",
+        "create_reviews",
+        "update_reviews",
+        "delete_reviews",
+        "create_payment"
+      ]
+    },
+    "govt_officer": {
+      "permissions": [
+        "view_elite_ngos",
+        "issue_reward_certificate",
+        "verify_impact_data",
+        "nominate_for_award",
+        "view_campaigns",
+        "approve_reward",
+        "reject_reward",
+        "issue_badges"
+      ]
+    },
+    "user": {
+      "permissions": [
+        "view_all_blogs",
+        "update_comments",
+        "delete_comments",
+        "create_reviews",
+        "update_reviews",
+        "delete_reviews",
+        "create_payment"
+      ]
+    }
+  }
+}

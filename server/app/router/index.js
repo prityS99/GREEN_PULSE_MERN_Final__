@@ -1,0 +1,46 @@
+const express = require("express");
+const router = express.Router();
+
+const authRoute = require("./AuthRoute")
+const aiRoute = require("./aiChatboxRoute")
+const userRoute = require("./UserRoute")
+const adminRoute = require("./AdminRoute")
+const annoucementRoute = require("./announcementRoute")
+const ngoRoute = require("./NgoRoute")
+const cleaningCompanyRoute = require("./CleaningCompanyRoute")
+const cleaningRequestsRoute = require("./CleaningRequestRoute")
+const govtOfficerRoute = require("./GovtOfficerRoute")
+const reviewRoute = require("./ReviewRoute")
+const certificateRoute = require("./CertificateRoute")
+const contactRoute = require("./contactRoute")
+const rewardRoute = require("./RewardRoute")
+const badgeRoute = require("./BadgeRoute")
+const analyticsRoute = require("./AnalyticsRoute")
+const campaignRoute = require("./CampaignRoute")
+const paymentRoute = require("./PaymentRoute")
+const aiChatBoxRoute = require("./aiChatboxRoute")
+const notificationRoute = require("./notificationRoute")
+
+
+router.use("/", authRoute)
+router.use("/user", userRoute)
+router.use("/admin", adminRoute)
+router.use("/annoucement", annoucementRoute)
+router.use("/ai", aiRoute)
+router.use("/ngo", ngoRoute)
+router.use("/cleaningcompany", cleaningCompanyRoute)
+router.use("/cleaningrequests", cleaningRequestsRoute)
+router.use("/campaign", campaignRoute)
+router.use("/govtofficer", govtOfficerRoute)
+router.use("/review", reviewRoute)
+router.use("/certificate", certificateRoute)
+router.use("/contact", contactRoute)
+router.use("/reward", rewardRoute)
+router.use("/badge", badgeRoute)
+router.use("/analytics", analyticsRoute)
+router.use("/payment", paymentRoute)
+router.use("/aiChatBoxRoute", aiChatBoxRoute)
+router.use("/notification", notificationRoute)
+
+
+module.exports = router
