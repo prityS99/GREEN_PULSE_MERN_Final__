@@ -3,7 +3,7 @@
 GreenPulse is an advanced, NGO mobilization and cleaning - company for waste - cleaning enterprise-grade full-stack sustainability ecosystem. Powered by the MERN stack architecture, it combines a blazing-fast user experience with an interactive, AI-driven backend module utilizing Google GenAI to provide real-time recommendations, predictive ecological reports, and smart carbon-tracking workflows.
 
 
-You can create an admin profile by creating admin profile from footer section.
+You can create an admin profile by signup from footer section.
 
 
 🛠️ The Tech Matrix :-
