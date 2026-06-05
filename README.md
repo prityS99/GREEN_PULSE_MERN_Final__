@@ -2,6 +2,7 @@
 📋 Project Blueprint
 GreenPulse is an advanced, NGO mobilization and cleaning - company for waste - cleaning enterprise-grade full-stack sustainability ecosystem. Powered by the MERN stack architecture, it combines a blazing-fast user experience with an interactive, AI-driven backend module utilizing Google GenAI to provide real-time recommendations, predictive ecological reports, and smart carbon-tracking workflows.
 
+
 🛠️ The Tech Matrix :-
 
 🎨 Client Architecture (Frontend)
@@ -20,6 +21,8 @@ Form Machinery: React Hook Form unified with structural schema checks via Yup.
 Network & Cookies: Axios instances with token attachment interceptors, operating alongside js-cookie.
 
 Toasts: Real-time push notifications built using React Hot Toast.
+
+
 
 ⚡ Engine & Pipeline (Backend)
 Runtime Core: Node.js utilizing the Express pipeline structure.
