@@ -1,18 +1,21 @@
 🌿 GreenPulse
-📋 Project Blueprint
+📋 Project Description
 GreenPulse is an advanced, NGO mobilization and cleaning - company for waste - cleaning enterprise-grade full-stack sustainability ecosystem. Powered by the MERN stack architecture, it combines a blazing-fast user experience with an interactive, AI-driven backend module utilizing Google GenAI to provide real-time recommendations, predictive ecological reports, and smart carbon-tracking workflows.
+
+
+You can create an admin profile by creating admin profile from footer section.
 
 
 🛠️ The Tech Matrix :-
 
 🎨 Client Architecture (Frontend)
-Framework Engine: Next.js (App Router) backed with static-site generation optimizations.
+Framework Engine: Next.js backed with static-site generation optimizations.
 
 Typing Layer: Pure TypeScript (TSX) ensuring full compile-time type safety.
 
 Styling Framework: Tailwind CSS for utility-first layout structures.
 
-State Operations: * Redux Toolkit manages immediate local UX states (modals, global themes, transient profiles).
+State Operations: * Redux Toolkit management.
 
 React Query (TanStack Query) executes asynchronous server-state fetching, caching, and mutation synchronization.
 
@@ -25,6 +28,7 @@ Toasts: Real-time push notifications built using React Hot Toast.
 
 
 ⚡ Engine & Pipeline (Backend)
+
 Runtime Core: Node.js utilizing the Express pipeline structure.
 
 Persistence Tier: MongoDB managed via decoupled Mongoose schema models.
@@ -35,7 +39,7 @@ Access Control: JSON Web Tokens (JWT) securely distributed inside encrypted HTTP
 
 Data Sanitization: Object parsing and endpoint security schemas enforced with Joi.
 
-Documentation Layer: Interactive Swagger API for effortless testing.
+Documentation Layer: Postman API Testing
 
 System Microservices: Nodemailer logic for dispatching verification structures and reporting templates.
 
